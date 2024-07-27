@@ -1,0 +1,37 @@
+body {
+    background: #cff7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-image {
+    border-radius: 150%;
+    border: red;
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+}
